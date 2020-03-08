@@ -1,0 +1,173 @@
+﻿<?xml version='1.0' encoding='utf-8' ?>
+  <rss version='2.0'>
+    <channel>
+      <language>ru-ru</language>
+
+      <item><USSD>*100#</USSD><INFO>узнать баланс</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT><COUNT>0</COUNT></item>
+      <item><USSD>*145#</USSD><INFO>получить информацию о пяти последних платных действий по номеру телефона</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*10#</USSD><INFO>узнать свой номер телефона</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*147#</USSD><INFO>узнать свой номер телефона</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*11#</USSD><INFO>узнать перечень подключенных услуг</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*12#</USSD><INFO>узнать свой тариф</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+
+      <item><USSD>*111*31#</USSD><INFO>ввести Обещанный платёж (до 20 000 руб. на срок до 10 дней)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*113*сумма#</USSD><INFO>ввести Обещанный платёж (до 20 000 руб. на срок до 10 дней)</INFO><TYPE>32</TYPE><SHBL>*113*%summa%#</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*32#</USSD><INFO>просмотреть зачисленные платежи</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*33#</USSD><INFO>узнать начисления за текущий месяц</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*113*0#</USSD><INFO>отменить Обещанный платёж</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*114*сумма#</USSD><INFO>ввести Срочный кредит (от 40 000 до 100 000 руб. на срок до 30 дней)</INFO><TYPE>32</TYPE><SHBL>*114*%summa%#</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*114*1#</USSD><INFO>узнать максимально доступную сумму Срочного кредита</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*115*код_карты_оплаты_(14_знаков)#</USSD><INFO>пополнить счёта картой оплаты</INFO><TYPE>32</TYPE><SHBL>*115*%number14%#</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*115*код_карты_оплаты_(14_знаков)*375YYXXXXXXX#</USSD><INFO>пополнить счёта др. номера МТС картой оплаты</INFO><TYPE>33</TYPE><SHBL>*115*%number14%*375%phone9%#</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*121#</USSD><INFO>меню Запроса на пополнение счёта</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*121*375ХХХХХХХХХ#</USSD><INFO>отправить Запрос на пополнение счёта</INFO><TYPE>31</TYPE><SHBL>*121*375%phone9%#</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*125#</USSD><INFO>подключить Кредит доверия (кредитного метода расчётов)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*125*0#</USSD><INFO>отключить Кредит доверия (кредитного метода расчётов)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*125*1#</USSD><INFO>узнать кредитный лимит по Кредиту доверия (кредитному методу расчётов)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*363*375YYХХХХХХХ*сумма#</USSD><INFO>перевести деньги на другой номер МТС, Поделись балансом (подтверждение перевода - 216 руб.)</INFO><TYPE>33</TYPE><SHBL>*363*375%phone9%*%summa%#</SHBL><COUNT>0</COUNT></item>
+
+      <item><USSD>*111*401#</USSD><INFO>подключить/отключить Передачу данных (интернет, MMS)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*402#</USSD><INFO>подключить/отключить Гипер.Net (стоимость услуги - 9 900 руб. в сутки + 1,2 руб./МБ)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*404#</USSD><INFO>меню Безлимитный интернет с телефона (через Opera Mini), Безлимитный интернет с телефона, на сутки (через Opera Mini)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*406#</USSD><INFO>подключить/отключить Безлимитный интернет с телефона (через Opera Mini) (стоимость услуги - 18 000 руб. в мес.)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*510#</USSD><INFO>подключить/отключить Безлимитный интернет с телефона (через Opera Mini) (стоимость услуги - 18 000 руб. в мес.)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*510*0#</USSD><INFO>отключить Безлимитный интернет с телефона</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*530#</USSD><INFO>подключить Безлимитный интернет с телефона, на сутки (через Opera Mini) (стоимость услуги - 1 500 руб. в сутки)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*530*0#</USSD><INFO>отключить Безлимитный интернет с телефона, на сутки</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*405#</USSD><INFO>подключить/отключить МТС Wi-Fi</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*431#</USSD><INFO>подключить МТС Wi-Fi 60 (стоимость услуги - разово 1 920 руб.)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*351#</USSD><INFO>подключить МТС Wi-Fi 60 (стоимость услуги - разово 1 920 руб.)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*432#</USSD><INFO>подключить МТС Wi-Fi 180 (стоимость услуги - разово 4 800 руб.)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*353#</USSD><INFO>подключить МТС Wi-Fi 180 (стоимость услуги - разово 4 800 руб.)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*421#</USSD><INFO>подключить/отключить 3G Коннект 100 МБ (стоимость услуги - 18 000 при подключении и ежемесячно 1 числа)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*311#</USSD><INFO>подключить 3G Коннект 100 МБ (стоимость услуги - 18 000 при подключении и ежемесячно 1 числа)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*311*0#</USSD><INFO>отключить 3G Коннект 100 МБ (стоимость услуги - 18 000 при подключении и ежемесячно 1 числа)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*422#</USSD><INFO>подключить/отключить отключить 3G Коннект 500 МБ (стоимость услуги - 33 000 руб. при подключении и ежемесячно 1 числа)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*312#</USSD><INFO>подключить отключить 3G Коннект 500 МБ (стоимость услуги - 33 000 руб. при подключении и ежемесячно 1 числа)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*312*0#</USSD><INFO>Общая информация отключить 3G Коннект 500 МБ (стоимость услуги - 33 000 руб. при подключении и ежемесячно 1 числа)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*423#</USSD><INFO>подключить/отключить 3G Коннект 1 ГБ (стоимость услуги - 48 000 руб. при подключении и ежемесячно 1 числа)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*313#</USSD><INFO>подключить 3G Коннект 1 ГБ (стоимость услуги - 48 000 руб. при подключении и ежемесячно 1 числа)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*313*0#</USSD><INFO>отключить 3G Коннект 1 ГБ (стоимость услуги - 48 000 руб. при подключении и ежемесячно 1 числа)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*424#</USSD><INFO>подключить/отключить 3G Коннект 2 ГБ (стоимость услуги - 72 000 руб. при подключении и ежемесячно 1 числа)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*314#</USSD><INFO>подключить 3G Коннект 2 ГБ (стоимость услуги - 72 000 руб. при подключении и ежемесячно 1 числа)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*314*0#</USSD><INFO>отключить 3G Коннект 2 ГБ (стоимость услуги - 72 000 руб. при подключении и ежемесячно 1 числа)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*425#</USSD><INFO>подключить/отключить 3G Коннект 3 ГБ (стоимость услуги - 96 000 руб. при подключении и ежемесячно 1 числа)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*315#</USSD><INFO>подключить 3G Коннект 3 ГБ (стоимость услуги - 96 000 руб. при подключении и ежемесячно 1 числа)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*315*0#</USSD><INFO>отключить 3G Коннект 3 ГБ (стоимость услуги - 96 000 руб. при подключении и ежемесячно 1 числа)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*426#</USSD><INFO>подключить/отключить 3G Коннект 5 ГБ (стоимость услуги - 120 000 руб. при подключении и ежемесячно 1 числа)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*316#</USSD><INFO>подключить 3G Коннект 5 ГБ (стоимость услуги - 120 000 руб. при подключении и ежемесячно 1 числа)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*316*0#</USSD><INFO>отключить 3G Коннект 5 ГБ (стоимость услуги - 120 000 руб. при подключении и ежемесячно 1 числа)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*317#</USSD><INFO>подключить Mini (стоимость услуги - 45 600 руб. при подключении и ежемесячно 1 числа)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*317*0#</USSD><INFO>отключить Mini (стоимость услуги - 45 600 руб. при подключении и ежемесячно 1 числа)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*318#</USSD><INFO>подключить Midi (стоимость услуги - 64 800 руб. при подключении и ежемесячно 1 числа)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*318*0#</USSD><INFO>отключить Midi (стоимость услуги - 64 800 руб. при подключении и ежемесячно 1 числа)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*319#</USSD><INFO>подключить отключить Maxi (стоимость услуги - 84 000 руб. при подключении и ежемесячно 1 числа)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*319*0#</USSD><INFO>отключить Maxi (стоимость услуги - 84 000 руб. при подключении и ежемесячно 1 числа)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*155#</USSD><INFO>подключить Интернет-Персона (стоимость услуги - 18 000 руб. в мес.)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*155*0#</USSD><INFO>отключить Интернет-Персона</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*710#</USSD><INFO>подключить Безлимит (стоимость услуги - 180 000 руб. при подключении и ежемесячно в число подключения услуги)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*710*0#</USSD><INFO>отключить Безлимит</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*720#</USSD><INFO>подключить Безлимит 2.0 (стоимость услуги - 96 000 руб. при подключении и ежемесячно в число подключения услуги)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*720*0#</USSD><INFO>отключить Безлимит 2.0</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*730#</USSD><INFO>подключить СмартБИТ</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*730*0#</USSD><INFO>отключить СмартБИТ</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*790#</USSD><INFO>подключить 3G Лайт (стоимость услуги - 11 880 руб. в мес. + 35 руб./МБ)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*790*0#</USSD><INFO>отключить 3G Лайт</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+
+      <item><USSD>*111*20#</USSD><INFO>подключить/отключить Международный доступ</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*21#</USSD><INFO>подключить/отключить SMS-роуминг (стоимость услуги - разово 15 000 руб.)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*22#</USSD><INFO>подключить Роуминг (подключение доступно, если прошло > 90 дней с даты заключения договора; баланс для подключения не менее 25 000 руб.)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+
+      <item><USSD>*111*233#</USSD><INFO>подключить/отключить Получение SMS с сайта</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*234#</USSD><INFO>подключить/отключить Получение SMS с email (стоимость услуги - 10 000 руб. при подключении и 6 000 руб. в мес.)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*251#</USSD><INFO>подключить SMS-пакет 50 (стоимость услуги - разово 8 250 руб.)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*252#</USSD><INFO>подключить SMS-пакет 100 (стоимость услуги - разово 15 000 руб.)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*253#</USSD><INFO>подключить SMS-пакет 300 (стоимость услуги - разово 35 500 руб.)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*254#</USSD><INFO>подключить SMS-пакет 500 (стоимость услуги - разово 42 500 руб.)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*55#</USSD><INFO>подключить/отключить SMS-Extra (стоимость услуги - 3 600 руб. в мес.)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*261#</USSD><INFO>подключить MMS-пакет 10 (стоимость услуги - разово 3 900 руб.)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*262#</USSD><INFO>подключить MMS-пакет 25 (стоимость услуги - разово 7 250 руб.)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*263#</USSD><INFO>подключить MMS-Драйв (стоимость услуги - разово 14 400 руб.)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+
+      <item><USSD>*111*231#</USSD><INFO>подключить/отключить Голосовую почту 1 класса (стоимость услуги - 2 700 руб. в мес.)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*232#</USSD><INFO>подключить/отключить Голосовую почту 2 класса (стоимость услуги - 5 100 руб. в мес.)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*235#</USSD><INFO>подключить/отключить Переадресацию вызова</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*236#</USSD><INFO>подключить/отключить Антиопределитель номера (стоимость услуги - по тарифному плану)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*237#</USSD><INFO>подключить/отключить Определитель номера (стоимость услуги - по тарифному плану)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*238#</USSD><INFO>подключить/отключить Ожидание (удержание) вызова</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*239#</USSD><INFO>подключить/отключить Конференц-связь</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*240#</USSD><INFO>подключить/отключить Запрет вызова (стоимость услуги - разово 2 520 руб., ежемесячно по тарифному плану)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*500*1#</USSD><INFO>подключить Живой баланс по USSD (стоимость услуги - 3 000 руб. в мес.)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*500*0#</USSD><INFO>отключить Живой баланс по USSD</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+
+      <item><USSD>*106*200#</USSD><INFO>подключить 200 минут во все сети - для тарифа \"Корпорация\" (стоимость 30 000 руб. в мес.)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*106*400#</USSD><INFO>подключить 400 минут во все сети - для тарифа \"Корпорация\" (стоимость 60 000 руб. в мес.)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*106*600#</USSD><INFO>подключить 600 минут во все сети - для тарифа \"Корпорация\" (стоимость 90 000 руб. в мес.)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*106*0#</USSD><INFO>отключить 200 минут во все сети, 400 минут во все сети или 600 минут во все сети - для тарифа \"Корпорация\"</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*108#</USSD><INFO>подключить Мою компанию - для корпоративных тарифов (стоимость услуги - 6 000 руб. в мес.)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*108*0#</USSD><INFO>отключить Мою компанию - для корпоративных тарифов</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*241#</USSD><INFO>подключить/отключить Мобильный офис</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*242#</USSD><INFO>подключить/отключить Интернет-Помощник</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*243#</USSD><INFO>подключить/отключить Ежемесячную детализацию (стоимость услуги - по тарифному плану)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*244#</USSD><INFO>подключить/отключить Не спать! - для тарифов \"Пуск\", \"Все свои\" (добавление - 2 000, стоимость услуги - 5 000 руб. в мес.)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*245#</USSD><INFO>подключить/отключить Хороших выходных! - для тарифов \"Пуск\", \"Все свои\" (добавление - 2 000, стоимость услуги - 5 000 руб. в мес.)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*160#</USSD><INFO>подключить Срочный безлимит (стоимость услуги - 3 500 руб. в сутки)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*160*0#</USSD><INFO>отключить Срочный безлимит (стоимость услуги - 3 500 руб. в сутки)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*170#</USSD><INFO>подключить/отключить услуги на тарифе \"Onliner.by\" (стоимость услуг - по тарифному плану)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+
+      <item><USSD>*111*13#</USSD><INFO>сменить тариф на \"ULTRA\", \"Будь практичнее\", \"Все свои\", \"Интернет\", \"Легко сказать\", \"МТС СМАРТ\", \"МТС СМАРТ+\", \"Общайся!\", \"Отличный\", \"Родной\" (стоимость смены тарифа отображается в меню)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*14#</USSD><INFO>добавить, изменить, удалить Любимые номера (стоимость добавления, изменения, удаления Любимого номера отображается в меню)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*170#</USSD><INFO>сменить тариф на \"Onliner.by\" (стоимость смены тарифа - 7 560 руб. с ТП с ежем. оплатой, корпоративного ТП - 19 800 руб)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+
+      <item><USSD>*111*15#</USSD><INFO>установить Добровольную блокировку (стоимость установки добровольной блокировки отображается в меню)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*16#</USSD><INFO>отменить Добровольную блокировку</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*17#</USSD><INFO>установить пароль к Интернет-Помощнику</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*18#</USSD><INFO>меню настроек кодировки USSD-портала *111#</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*000*1#</USSD><INFO>установить кодировку \"кириллица\" для USSD-портала *111#</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*000*2#</USSD><INFO>установить кодировку \"транслит\" для USSD-портала *111#</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*303#</USSD><INFO>заказать настройки WAP, интернета, MMS (стоимость запроса - 60 руб.)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>**62*110110#</USSD><INFO>активировать Вам звонили</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>**62*321321#</USSD><INFO>установить переадресацию на Голосовую почту</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*190*1*375YYХХХХХХХ#</USSD><INFO>активировать За мой счёт (375YYХХХХХХX - номер абонента на тарифе \"Детский\")</INFO><TYPE>31</TYPE><SHBL>*190*1*375%phone9%#</SHBL><COUNT>0</COUNT></item>
+
+      <item><USSD>*110#</USSD><INFO>меню \"Вам звонили\" и \"Есть связь!\" (стоимость перехода по меню - 60 руб. за шаг)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*120*375YYХХХХХХХ#</USSD><INFO>отправить запрос \"Перезвони мне!\"</INFO><TYPE>31</TYPE><SHBL>*120*375%phone9%#</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*300#</USSD><INFO>меню \"ТОНИНГ\" (стоимость перехода по меню - 60 руб. за шаг)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*310#</USSD><INFO>подключить Безлимитный ТОНИНГ</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*310*0#</USSD><INFO>отключить Безлимитный ТОНИНГ</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*393#</USSD><INFO>подключить Музыкальный плеер</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*393*0#</USSD><INFO>отключить Музыкальный плеер</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*922#</USSD><INFO>подключить/отключить Персональный гудок</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*800#</USSD><INFO>меню \"Мобильного ТВ\" (ITV)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+
+      <item><USSD>*706#</USSD><INFO>узнать остаток бонусных баллов, количество бонусов и срок окончания их действия</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*707#</USSD><INFO>меню \"МТС Бонус\"</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*707*11#</USSD><INFO>подключить Пакет 50 мин. на МТС</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*707*12#</USSD><INFO>подключить Пакет 100 мин. на МТС</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*707*13#</USSD><INFO>подключить Пакет 300 мин. на МТС</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*707*21#</USSD><INFO>подключить Пакет 25 мин. на другие сети</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*707*22#</USSD><INFO>подключить Пакет 50 мин. на другие сети</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*707*23#</USSD><INFO>подключить Пакет 100 мин. на другие сети</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*707*31#</USSD><INFO>подключить Пакет 50 МБ</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*707*32#</USSD><INFO>подключить Пакет 100 MB</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*707*33#</USSD><INFO>подключить Пакет 500 MB</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*707*41#</USSD><INFO>подключить SMS-пакет 25</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*707*42#</USSD><INFO>подключить SMS-пакет 50</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*707*43#</USSD><INFO>подключить SMS-пакет 100</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*707*51#</USSD><INFO>подключить MMS-пакет 10</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*707*52#</USSD><INFO>подключить MMS-пакет 25</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*707*53#</USSD><INFO>подключить MMS-пакет 50</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*707*61#</USSD><INFO>получить сертификат 50 000 руб. на приобретение телефона (модели, на которые распространяется предложение, можно уточнить в салонах МТС)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+
+      <item><USSD>*111*1212#</USSD><INFO>оплатить услуги МТС с банковской карты \"Приорбанк\" ОАО</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*1213#</USSD><INFO>оплатить услуги МТС с банковской карты ЗАО \"Банк ВТБ\" (Беларусь)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*1221#</USSD><INFO>оплатить услуг МТС электронными деньгами EasyPay (доступно для зарегистрированных пользователей электронных денег EasyPay. Доступно при отрицательном балансе)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*1222#</USSD><INFO>оплатить услуги МТС с банковской карты ОАО \"БПС-Сбербанк\"</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*1239#</USSD><INFO>оплатить услуги МТС с банковской карты ОАО \"Белинвестбанк\"</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*1250#</USSD><INFO>оплатить услуги МТС с банковской карты ОАО \"Белагропромбанк\"</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*1255#</USSD><INFO>оплатить услуги МТС с банковской карты ЗАО \"АКБ \"БЕЛРОСБАНК\"</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*111*611#</USSD><INFO>оплатить услуги МТС с банковской карты ОАО \"АСБ Беларусбанк\" (доступно при отрицательном балансе)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*212#</USSD><INFO>USSD-Банк Prior Mobile+ (оплата различных услуг, в том числе услуг МТС с банковской карты \"Приорбанк\" ОАО. Регистрировать SMS-банкинг необязательно. Доступно только при положительном балансе)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+
+    </channel>
+  </rss>

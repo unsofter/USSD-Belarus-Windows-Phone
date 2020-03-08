@@ -1,2 +1,3 @@
-# USSD-Belarus-Windows-Phone
-Первый вариант USSD Belarus для Windows Phone
+# USSD Belarus для WindowsPhone
+
+Помощник по USSD для Windows Phone.

@@ -1,0 +1,105 @@
+﻿<?xml version='1.0' encoding='utf-8' ?>
+  <rss version='2.0'>
+    <channel>
+      <language>ru-ru</language>
+
+      <item><USSD>*100#</USSD><INFO>для информации о балансе лицевого счета и количестве бонусов</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT><COUNT>0</COUNT></item>
+      <item><USSD>*100*код карты#</USSD><INFO>для пополнения лицевого счета с помощью карт пополнения счета</INFO><TYPE>32</TYPE><SHBL>*100*%number%#</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*105*1*1#</USSD><INFO>для информации о количестве и сроке действия минут по Беларуси</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*105*1*2#</USSD><INFO>для информации о количестве и сроке действия минут внутри сети life:)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*105*1*3#</USSD><INFO>для информации о количестве и сроке действия минут в другие сети</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*105*1*4#</USSD><INFO>для информации о количестве и сроке действия минут для международных звонков</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*105*2#</USSD><INFO>для информации о количестве и сроке действия интернет-трафика</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*105*3*1#</USSD><INFO>для информации о количестве и сроке действия SMS внутри сети life:)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*105*3*2#</USSD><INFO>для информации о количестве и сроке действия SMS на другие сети</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*105*3*3#</USSD><INFO>для информации о количестве и сроке действия SMS по Беларуси</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*105*3*4#</USSD><INFO>для информации о количестве и сроке действия MMS внутри сети life:)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*105*3*5#</USSD><INFO>для информации о количестве и сроке действия MMS по Беларуси</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*105*4#</USSD><INFO>для информации о количестве и сроке действия минут для видеозвонков</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*105*5#</USSD><INFO>для информации о количестве и сроке действия бонуса</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*105*6#</USSD><INFO>для информации о количестве и сроке действия минут и SMS в роуминговых пакетах</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*105*7#</USSD><INFO>для удаления ранее добавленных услуг, на которые в настоящее время закрыты подключения</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*105*8#</USSD><INFO>для получения информации об имеющихся обязательствах, сроках их исполнения и сумме для выполнения обязательств по тому или иному предложению</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*105*9#</USSD><INFO>для информации о количестве бонусов в рамках услуги «Карманы»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*1*1#</USSD><INFO>для операций с тарифным планом «йо600»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*1*2#</USSD><INFO>для операций с тарифным планом «йо1200»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*1*3#</USSD><INFO>для операций с тарифным планом «старт йо life:)»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*1*4#</USSD><INFO>для операций с тарифным планом «мир в руке»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*1*5#</USSD><INFO>для операций с тарифным планом «лайт йо life:)»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*1*6#</USSD><INFO>для операций с тарифным планом «Динамо»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*1*7#</USSD><INFO>для операций с тарифным планом «life:) S» (только для абонентов ТП SMLU)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*1*8#</USSD><INFO>для операций с тарифным планом «life:) M» (только для абонентов ТП SMLU)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*1*9#</USSD><INFO>для операций с тарифным планом «life:) L» (только для абонентов ТП SMLU)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*1*10#</USSD><INFO>для операций с тарифным планом «life:) U» (только для абонентов ТП SMLU)</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*2*1#</USSD><INFO>для операций с тарифной услугой «life:) Интернет на сутки 250»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*2*2#</USSD><INFO>для операций с тарифной услугой «life:) Интернет Unlim 1024 на сутки»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*2*3#</USSD><INFO>для операций с тарифной услугой «life:) SMS на сутки 30»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*2*4#</USSD><INFO>для операций с тарифной услугой «25 минут на другие сети на сутки»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*3#</USSD><INFO>для операций с услугой «life:) Бонус за входящие»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*4*1#</USSD><INFO>для операций с тарифной услугой «life:) Роуминг 30»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*4*2#</USSD><INFO>для операций с тарифной услугой «life:) Роуминг 60»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*4*3#</USSD><INFO>для операций с тарифной услугой «life:) Роcсия»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*4*4#</USSD><INFO>для операций с тарифной услугой «life:) Украина»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*4*5#</USSD><INFO>для операций с тарифной услугой «life:) Польша»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*4*6#</USSD><INFO>для операций с тарифной услугой «life:) Мировой»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+
+      <item><USSD>*110*5*1*1*1#</USSD><INFO>для операций с тарифной услугой «life:) Интернет 50»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*5*1*1*2#</USSD><INFO>для операций с тарифной услугой «life:) Интернет 100»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*5*1*1*3#</USSD><INFO>для операций с тарифной услугой «life:) Интернет 250»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*5*1*1*4#</USSD><INFO>для операций с тарифной услугой «life:) Интернет 500»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*5*1*1*5#</USSD><INFO>для операций с тарифной услугой «life:) Интернет 42 руб./Мб»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*5*1*1*6#</USSD><INFO>для операций с тарифной услугой «life:) Интернет 3000»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*5*1*1*7#</USSD><INFO>для операций с тарифной услугой «life:) Интернет 4000»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*5*1*1*8#</USSD><INFO>для операций с тарифной услугой «life:) Интернет 5000+»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*5*1*1*9#</USSD><INFO>для операций с тарифной услугой «life:) Интернет 8000»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*5*1*1*10#</USSD><INFO>для операций с тарифной услугой «life:) Интернет 10 000»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*5*1*1*11#</USSD><INFO>для операций с тарифной услугой «life:) Интернет 15 000»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*5*1*1*12#</USSD><INFO>для операций с тарифной услугой «life:) Интернет Ночной»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*5*1*2*1#</USSD><INFO>для операций с тарифной услугой «life:) Интернет Unlim 128»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*5*1*2*2#</USSD><INFO>для операций с тарифной услугой «life:) Интернет Unlim 512»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*5*1*2*3#</USSD><INFO>для операций с тарифной услугой «life:) Интернет Unlim 1024»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*5*1*2*4#</USSD><INFO>для операций с тарифной услугой «life:) Интернет Unlim»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*5*2*1#</USSD><INFO>для операций с тарифной услугой «life:) SMS 100»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*5*2*2#</USSD><INFO>для операций с тарифной услугой «life:) SMS 500»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*5*2*3#</USSD><INFO>для операций с тарифной услугой «life:) SMS 1000»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*5*3#</USSD><INFO>для операций с тарифной услугой «100 минут на другие сети»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*5*4*1#</USSD><INFO>для операций с тарифной услугой «Всё в одном»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*5*4*2#</USSD><INFO>для операций с тарифной услугой «life:) PRO»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*5*4*3#</USSD><INFO>для операций с тарифной услугой «Все по 100»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+
+      <item><USSD>*110*5*1*1*1#</USSD><INFO>для операций с тарифной услугой «life:) Интернет 500», «life:) Интернет 600»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*5*1*1*2#</USSD><INFO>для операций с тарифной услугой «life:) Интернет 42 руб./Мб»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*5*1*1*3#</USSD><INFO>для операций с тарифной услугой «life:) Интернет 3000»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*5*1*1*4#</USSD><INFO>для операций с тарифной услугой «life:) Интернет 4000»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*5*1*1*5#</USSD><INFO>для операций с тарифной услугой «life:) Интернет 5000+»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*5*1*1*6#</USSD><INFO>для операций с тарифной услугой «life:) Интернет 10 000»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*5*1*1*7#</USSD><INFO>для операций с тарифной услугой «life:) Интернет Ночной»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*5*1*1*8#</USSD><INFO>для операций с тарифной услугой «life:) Интернет 7 000 МБ + SMS»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*5*1*1*8#</USSD><INFO>для операций с тарифной услугой «life:) Интернет 3 000 МБ + SMS»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*5*1*2*1#</USSD><INFO>для операций с тарифной услугой «life:) Интернет Unlim 128»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*5*1*2*2#</USSD><INFO>для операций с тарифной услугой «life:) Интернет Unlim 512»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*5*1*2*3#</USSD><INFO>для операций с тарифной услугой «life:) Интернет Unlim 1024», «life:) Интернет Unlim»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*5*1*2*4#</USSD><INFO>для операций с тарифной услугой «life:) Интернет Unlim»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+
+      <item><USSD>*110*6#</USSD><INFO>для удаления ранее добавленных услуг, на которые в настоящее время закрыты подключения</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*7#</USSD><INFO>для операций с услугой «ускорь свой день» (только для абонентов ТП \"йо600\", \"йо1200\")</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*8#</USSD><INFO>для операций с услугой «стоп оплата» (только для абонентов ТП \"йо600\", \"йо1200\")</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*110*9#</USSD><INFO>для операций с услугой «кредит на день» (только для абонентов ТП \"йо600\", \"йо1200\")</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*120*1#</USSD><INFO>воспользоваться услугой «Перевод баланса» </INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*120*2#</USSD><INFO>восполь зоваться услугой «Позвони мне»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*120*3#</USSD><INFO>для операций с услугой «Мой номер life:)»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*120*4#</USSD><INFO>для операций с услугой «Статический IP»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*120*5*1#</USSD><INFO>для операций с услугой «Голосовая почта»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*120*5*2#</USSD><INFO>для операций с услугой «Кто звонил?»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*120*5*3#</USSD><INFO>для операций с услугой «Снова в сети»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*120*6#</USSD><INFO>для операций с услугой «Антиопределитель номера»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*120*7#</USSD><INFO>для операций с услугой «Запрет вызова»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*120*8#</USSD><INFO>установить/ изменить пароль</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*120*9#</USSD><INFO>настройки</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*115#</USSD><INFO>для информации о текущем тарифном плане и номере телефона</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*147#</USSD><INFO>для информации о номере телефона</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*150#</USSD><INFO>для операций с Любимыми номерами</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+      <item><USSD>*155#</USSD><INFO>для операций с «life:) Команда»</INFO><TYPE>2</TYPE><SHBL>%ussd%</SHBL><COUNT>0</COUNT></item>
+
+    </channel>
+  </rss>

@@ -1,0 +1,146 @@
+﻿<phone:PhoneApplicationPage
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:USSDManager"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    x:Class="USSDManager.MainPage"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="True"
+    Loaded="MainLoaded"
+    toolkit:TiltEffect.IsTiltEnabled="True" 
+    Unloaded="PhoneApplicationPage_Unloaded" BackKeyPress="PhoneApplicationPage_BackKeyPress">
+
+    <phone:PhoneApplicationPage.Resources>
+        <Storyboard x:Name="ClipboardAnimation">
+            <DoubleAnimation Storyboard.TargetName="clpb"
+                             Storyboard.TargetProperty="Opacity"
+                             AutoReverse="True" Completed="clpb_Completed"
+                             From="0" To="1" Duration="0:0:1"/>
+        </Storyboard>
+    </phone:PhoneApplicationPage.Resources>
+    
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar Mode="Minimized" IsVisible="True" IsMenuEnabled="True" Opacity="0.5">
+            <shell:ApplicationBarIconButton 
+                IconUri="/Img/dark/appbar.questionmark.rest.png" 
+                Text="Информация" 
+                x:Name="abButton1" 
+                Click="abButton1_Click"/>
+            <shell:ApplicationBarIconButton 
+                IconUri="/Img/dark/appbar.feature.settings.rest.png" 
+                Text="Настройка" 
+                x:Name="abButton2" 
+                Click="abButton2_Click"/>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+
+
+    <!--LayoutRoot представляет корневую сетку, где размещается все содержимое страницы-->
+	<Grid x:Name="LayoutRoot" Background="Transparent">
+
+		<!--Раскомментируйте, чтобы увидеть сетку выравнивания и выровнять
+            элементы управления по общим границам.  Верхнее поле изображения равно -32 пикселя, чтобы
+            осталось место для области уведомлений. Установите его равным 0 (или вообще удалите поле),
+            если область уведомлений скрыта.
+
+            Перед сдачей приложения удалите этот код XAML и само изображение.-->
+        <phone:Panorama x:Name="mainPivot" Title="USSD БЕЛАРУСЬ" HeaderTemplate="{StaticResource SmallPanoramaHeader}" TitleTemplate="{StaticResource SmallPanoramaTitle}" >
+
+            <phone:PanoramaItem x:Name="operatorPivot" Header="Оператор">
+                <Grid Margin="0,0,0,0" x:Name="fGred">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="112" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+
+                    <StackPanel Grid.Row="0">
+                        <local:AdvTextBox x:Name="finder" Placeholder="Поиск" TextChanged="AdvTextBox_TextChanged"></local:AdvTextBox>
+                        <TextBlock x:Name="clpb" Visibility="Collapsed" VerticalAlignment="Center" Text="Скопировано в буфер обмена" Opacity="0" />
+                    </StackPanel>
+                    <!--Двухстрочный список без разбивки текста на строки-->
+                    <phone:LongListSelector Grid.Row="2" x:Name="operatorList" Margin="0,0,-12,0" ItemsSource="{Binding Items}" Tap="operatorList_Tap">
+                        <phone:LongListSelector.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Margin="0,0,0,17" Background="{StaticResource PhoneAccentBrush}">
+                                    <TextBlock Text="{Binding USSD}" TextWrapping="Wrap" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}" />
+                                    <TextBlock Text="{Binding INFO}" TextWrapping="Wrap" Margin="12,0,0,6" Style="{StaticResource PhoneTextNormalStyle}" />
+                                </StackPanel>
+                            </DataTemplate>
+                        </phone:LongListSelector.ItemTemplate>
+                    </phone:LongListSelector>
+                </Grid>
+            </phone:PanoramaItem>
+
+            <phone:PanoramaItem x:Name="tiles" Header="ВЫБОР">
+                <ScrollViewer>
+                    <StackPanel>
+                        <Button Width="400" Height="200" Margin="-20,0,0,0" Background="{StaticResource PhoneAccentBrush}" BorderThickness="0" Click="Button_Click">
+                            <StackPanel>
+                                <Image Source="Img\log.png" Margin="120,20,100,35" />
+                                <TextBlock Text="журнал" Margin="0,-55,10,10" Style="{StaticResource PhoneTextBlockBase}" />
+                            </StackPanel>
+                        </Button>
+                        
+                        <toolkit:WrapPanel ItemHeight="200" ItemWidth="200" x:Name="cList">
+
+                            <Button x:Name="vel" Background="{StaticResource PhoneAccentBrush}" BorderThickness="0" Click="vel_Click">
+                                <StackPanel>
+                                    <Image Source="Img\vel.png" Margin="25,25,25,35" />
+                                    <TextBlock Text="velcom" Margin="0,-30,10,10" Style="{StaticResource PhoneTextBlockBase}" />
+                                </StackPanel>
+                            </Button>
+
+                            <Button x:Name="mts" Background="{StaticResource PhoneAccentBrush}" BorderThickness="0" Click="mts_Click">
+                                <StackPanel>
+                                    <Image Source="Img\mts.png" Margin="25,25,25,35" />
+                                    <TextBlock Text="mts" Margin="0,-30,10,10" Style="{StaticResource PhoneTextBlockBase}" />
+                                </StackPanel>
+                            </Button>
+
+                            <Button x:Name="life" Background="{StaticResource PhoneAccentBrush}" BorderThickness="0" Click="life_Click">
+                                <StackPanel>
+                                    <Image Source="Img\life.png" Margin="25,25,25,35" />
+                                    <TextBlock Text="life:)" Margin="0,-30,10,10" Style="{StaticResource PhoneTextBlockBase}" />
+                                </StackPanel>
+                            </Button>
+
+                            <Button x:Name="velp" Background="{StaticResource PhoneAccentBrush}" BorderThickness="0"  Click="velp_Click">
+                                <StackPanel>
+                                    <Image Source="Img\vel.png" Margin="25,25,25,35" />
+                                    <TextBlock Text="velcom привет" Margin="0,-30,10,10" Style="{StaticResource PhoneTextBlockBase}" />
+                                </StackPanel>
+                            </Button>
+
+                            <Button x:Name="velk" Background="{StaticResource PhoneAccentBrush}" BorderThickness="0"  Click="velk_Click">
+                                <StackPanel>
+                                    <Image Source="Img\vel.png" Margin="25,25,25,35" />
+                                    <TextBlock Text="velcom корп" Margin="0,-30,10,10" Style="{StaticResource PhoneTextBlockBase}" />
+                                </StackPanel>
+                            </Button>
+
+                            <Button x:Name="others" Background="{StaticResource PhoneAccentBrush}" BorderThickness="0" Click="others_Click">
+                                <StackPanel>
+                                    <Image Source="Img\other.png" Margin="25,25,25,35" />
+                                    <TextBlock Text="прочие" Margin="0,-30,10,10" Style="{StaticResource PhoneTextBlockBase}" />
+                                </StackPanel>
+                            </Button>
+
+                        </toolkit:WrapPanel>
+                    </StackPanel>
+                </ScrollViewer>
+
+            </phone:PanoramaItem>
+        </phone:Panorama>
+
+
+    </Grid>
+
+</phone:PhoneApplicationPage>
